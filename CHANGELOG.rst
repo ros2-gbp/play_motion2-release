@@ -2,6 +2,21 @@
 Changelog for package play_motion2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.3 (2026-02-10)
+------------------
+* Log motion result error when it's not empty
+* Contributors: ileniaperrella
+
+1.8.2 (2025-11-12)
+------------------
+* Changes for hardware_interface new API
+* Contributors: Noel Jimenez
+
+1.8.1 (2025-10-23)
+------------------
+* Set zero acceleration and velocity for trajectories
+* Contributors: Noel Jimenez
+
 1.8.0 (2025-10-15)
 ------------------
 * Remove unused ordering of interfaces for passthrough_controller
