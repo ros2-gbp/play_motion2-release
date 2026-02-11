@@ -2,6 +2,17 @@
 Changelog for package play_motion2_cli
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.3 (2026-02-10)
+------------------
+
+1.8.2 (2025-11-12)
+------------------
+* Log an error when a motion fails
+* Contributors: Isaac Acevedo
+
+1.8.1 (2025-10-23)
+------------------
+
 1.8.0 (2025-10-15)
 ------------------
 * Start zenoh router if rmw_implementation is rmw_zenoh_cpp
