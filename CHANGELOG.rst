@@ -2,6 +2,9 @@
 Changelog for package play_motion2_cli
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.3 (2026-02-10)
+------------------
+
 1.8.2 (2025-11-12)
 ------------------
 * Log an error when a motion fails
