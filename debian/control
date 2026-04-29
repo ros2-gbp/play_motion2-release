@@ -1,0 +1,12 @@
+Source: ros-lyrical-play-motion2
+Section: misc
+Priority: optional
+Maintainer: Noel Jimenez <noel.jimenez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-pytest <!nocheck>, ros-lyrical-ament-cmake-python, ros-lyrical-ament-index-cpp <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-backward-ros, ros-lyrical-control-msgs, ros-lyrical-controller-interface <!nocheck>, ros-lyrical-controller-manager <!nocheck>, ros-lyrical-controller-manager-msgs, ros-lyrical-hardware-interface <!nocheck>, ros-lyrical-joint-state-broadcaster <!nocheck>, ros-lyrical-joint-trajectory-controller <!nocheck>, ros-lyrical-launch-testing-ament-cmake <!nocheck>, ros-lyrical-lifecycle-msgs, ros-lyrical-moveit-ros-planning-interface, ros-lyrical-play-motion2-msgs, ros-lyrical-pluginlib <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-rclcpp-lifecycle, ros-lyrical-realtime-tools <!nocheck>, ros-lyrical-robot-state-publisher <!nocheck>, ros-lyrical-sensor-msgs, ros-lyrical-sensor-msgs <!nocheck>, ros-lyrical-std-msgs, ros-lyrical-trajectory-msgs, ros-lyrical-xacro <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://github.com/pal-robotics/play_motion2
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-play-motion2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-backward-ros, ros-lyrical-control-msgs, ros-lyrical-controller-manager-msgs, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-lifecycle-msgs, ros-lyrical-moveit-ros-planning-interface, ros-lyrical-play-motion2-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-rclcpp-lifecycle, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-trajectory-msgs, ros-lyrical-ros-workspace
+Description: Play a pre-recorded motion on a robot
