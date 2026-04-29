@@ -1,0 +1,12 @@
+Source: ros-lyrical-play-motion2-msgs
+Section: misc
+Priority: optional
+Maintainer: Noel Jimenez <noel.jimenez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-action-msgs, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-generators, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://github.com/pal-robotics/play_motion2
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-play-motion2-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-action-msgs, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-runtime, ros-lyrical-ros-workspace
+Description: Play a pre-recorded motion on a robot
