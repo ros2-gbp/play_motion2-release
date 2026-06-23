@@ -2,6 +2,11 @@
 Changelog for package play_motion2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.5 (2026-03-13)
+------------------
+* Add testing for the client library
+* Contributors: Noel Jimenez
+
 1.8.4 (2026-03-05)
 ------------------
 * Check all positions are safe when using planning
